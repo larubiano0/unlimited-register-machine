@@ -1,0 +1,5 @@
+I = 'i'
+
+LEFT_PARENTHESIS = '('
+RIGHT_PARENTHESIS = ')'
+COMA = ','
