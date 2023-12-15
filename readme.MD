@@ -2,6 +2,13 @@
 
 A Python3 interpreter of the unlimited register machine, introduced by Nigel Cutland in Computability: an introduction to recursive function theory, 1980.  
 
+An unlimited register machine is a theoretical model of computation that consists of an infinite number of registers, each one containing a natural number, by default all set to 0 at the beginning, except for the n first registers, which receive an input by the user. The machine can perform the following operations:
+
+* Z(n): Set the value of the nth register to 0.
+* S(n): Increment the value of the nth register by 1.
+* T(n, m): Copy the value of the nth register to the mth register.
+* J(n, m, l): If the values of the nth and mth registers are equal, jump to the lth instruction.
+
 ## Installation
 
 Be shure to have Python3.10+ installed in your system. It can be found [here](https://www.python.org/downloads/).
