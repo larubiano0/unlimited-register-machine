@@ -1,7 +1,6 @@
 # Unilimited Register Machine Interpreter
 
-A Python3 interpreter of the unlimited register machine, that closely follows the design by by Nigel Cutland in Computability: an introduction to recursive function theory, 1980.  ISBN-10
-0521294657.
+According to [proofwiki](https://proofwiki.org/wiki/Definition:Unlimited_Register_Machine), the unlimited register machine is a more versatile and easy to understand alternative to the Turing machine, which has the same capabilities and (to a certain extent) to which it is logically equivalent. It was introduced in a paper by John C. Shepherdson and Howard E. Sturgis published in 1963. Here I present a Python3 interpreter of the unlimited register machine, that closely follows the design by by Nigel Cutland in Computability: an introduction to recursive function theory, 1980. ISBN-10 0521294657. 
 
 An unlimited register machine is a theoretical model of computation that consists of an infinite number of registers, each one containing a natural number, by default all set to 0 at the beginning, except for the n first registers, which receive an input by the user. The machine can perform the following operations:
 
