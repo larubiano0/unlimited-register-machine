@@ -1,0 +1,3 @@
+MAX_LENGTH = 16
+DELAY = .5 # Seconds
+ARROW_COLOR = (0, 0, 0) # BLACK
