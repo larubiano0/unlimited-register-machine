@@ -14,6 +14,8 @@ pip install pygame
 
 ## Usage
 
+Download the zip file or clone the repository. Then cd to the folder where the files are located.
+
 Run the interpreter with the following command:
 
 ```shell
