@@ -79,3 +79,7 @@ Please make sure to update tests as appropriate.
 
 ## YouTube video:
 [![YouTube video](https://img.youtube.com/vi/PLMU1lKPtMc/0.jpg)](https://www.youtube.com/watch?v=PLMU1lKPtMc)
+
+<div align="center">
+  <video src="example_video.mp4" width="400" />
+</div>
