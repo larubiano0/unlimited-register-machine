@@ -22,7 +22,7 @@ Run the interpreter with the following command:
 python3 urminterpreter.py <urm_file.urm>
 ```
 
-To use the visual interface, run the following command:
+To use the visual interface (requires pygame), run the following command:
 
 ```shell
 python3 urminterpreter.py <urm_file.urm> -v
@@ -36,6 +36,12 @@ The examples folder contains some examples of URM programs. The following comman
 
 ```shell
 python3 urminterpreter.py examples/x_plus_1.urm
+```
+
+The following command runs the x_plus_1.urm program with the visual interface:
+
+```shell
+python3 urminterpreter.py examples/x_plus_1.urm -v
 ```
 
 ## Contributing
