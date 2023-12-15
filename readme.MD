@@ -30,6 +30,14 @@ python3 urminterpreter.py <urm_file.urm> -v
 
 You may need to use python instead of python3 depending on your system.
 
+The file config.py contains some configuration variables that can be changed to modify the behaviour of the interpreter. The following variables can be changed: 
+
+* **MAX_LENGTH**: The maximum length of the register machine (it also changes the size of the window if the visual interface is on). The default value is 16.
+
+* **DELAY**: The delay between each instruction in the visual interface. The default value is 0.5 seconds.
+
+* **ARROW_COLOR**: The color of the arrows and lines in the visual interface. Its default value is black, and can be changed to any color supported by pygame.
+
 ## Examples
 
 The examples folder contains some examples of URM programs. The following command runs the x_plus_1.urm program:
